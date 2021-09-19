@@ -1,0 +1,31 @@
+<html>
+ <head>
+ <script type="text/javascript">
+ function okno_zamknij_potepski() 
+ {
+ window.close()
+ }
+ </script>
+ </head>
+<body>
+ JavaScript powstał 4 grudnia 1995 roku. Jest wykonywany przez silnik JavaScriptu w przeglądarce, po tym jak HTML i CSS zostaną skompletowane w stronę internetową. Jest językiem obiektowym, jeśli zastosujemy na stringu funkcję taką jak length czy charAt, to język niejawnie tworzy z niego obiekt, a potem wywołuje daną funkcję.
+ 
+ <input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')">
+ 
+…………………………………………………Jest to przycisk otwierajacy nowa strone………………………………………………………….
+window.open("obraz1.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200");
+……………………………Jest to obrazek……………………………………………………………………………….
+toolbar=no jest to panel z roznymi funkcjami
+directories=no, organizuje pliki
+menubar=no, jest to panel graficzny
+height=280, jest to wysokosc
+width=160, jest to szerokosc
+top=200, jest to gora
+left=200 jest to lewa strona
+window.close()
+……………………………jest to polecenie zamykajace okno………………………………………………………………………………
+
+ <img src="obraz1.gif" />
+ <input type="button" value="zamknij okno" onclick="okno_zamknij()"/>
+</body>
+</html>
