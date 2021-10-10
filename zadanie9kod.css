@@ -1,0 +1,23 @@
+<html>
+<body>
+<div style="color:green;font-size:53px;">
+<script language="JavaScript">
+var d1_pot=prompt("d1_pot=","");
+var g1_pot=prompt("g1_pot=","");
+var d2_pot=prompt("d2_pot=","");
+var g2_pot=prompt("g2_pot=","");
+var suma;
+var a=parseFloat(d1_pot);
+var c=parseFloat(g1_pot);
+var b=parseFloat(d2_pot);
+var d=parseFloat(g2_pot);
+suma=(a-b)*86400;
+sumaa=(24-c)*3600
+sumad=(24-d)*3600
+sumab=sumaa-sumad
+sumac=suma-sumab
+document.write("Między tymi dniami minęło sekund:"+sumac+"<br>");
+</script>
+</div>
+</body>
+</html>

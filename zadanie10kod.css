@@ -1,0 +1,14 @@
+<html>
+<body>
+<div style="color:green;font-size:53px;">
+<script language="JavaScript">
+var m1_pot=prompt("m1_pot=","");
+var suma;
+var a=parseFloat(m1_pot);
+suma=1/(a+1)
+sumaa=1/(a*(a+1))
+document.write("1/"+a+"="+suma+"+ "+sumaa+" <br>");
+</script>
+</div>
+</body>
+</html>
