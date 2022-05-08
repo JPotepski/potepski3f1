@@ -1,0 +1,28 @@
+div {
+            width: 608px;
+            background-color: green;
+            margin: 50px;
+            transition: all 0.5s;
+            border-radius: 10px;
+        }
+
+        div#blok1_potepski:hover {
+            background-color: orange;
+            font-size: 20mm;
+        }
+
+        div#blok2_potepski:hover {
+            background-color: blue;
+            font-size: 20mm;
+        }
+
+        div#blok3_potepski:hover {
+            background-color: turquoise;
+            font-size: 20mm;
+        }
+
+
+        /*
+            Juliusz Potepski
+            hover; jest selektorem który spełnia wartość jak nad danym elementem html znajduje się kursor myszy
+        */
