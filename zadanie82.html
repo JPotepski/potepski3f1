@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title> zadanie 82 </title>
+    <link rel="Stylesheet" type="text/css" href="css_stylesheet.css" />
+    <script language="JavaScript">
+        function pushbutton() {
+            alert("Czesc !");
+        }
+    </script>
+    <style>
+        p {
+            font-size: 70px;
+        }
+        p1 {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <p>Potepski</p>
+        <br />
+        <p1>
+            dzis = new Date() --> informacja o podanym czasie
+            <br />
+            dzis = dzis.getHours() --> informacja o aktualnej godzinie
+            <br />
+            dzis = dzis.getMinutes() --> informacja o aktualnej minucie
+            <br />
+            dzis = dzis.getMonth() + 1 --> informacja o miesiacu
+            <br />
+            dzis = dzis.getDate() --> informacja o dniu
+            <br />
+            dzis = dzis.getFullYear() --> informacja o roku
+        </p1>
+        <br />
+        <br />
+        <br />
+        Ostatnio zmodyfikowany
+        <script language="LiveScript">
+            document.write(document.lastModified, "<br>")
+        </script>
+        <button class="button" type="button" name="Button1" value="Naciśnij mnie" onclick="pushbutton()">Naciśnij mnie</button>
+        <script language="JavaScript">
+            dzis = new Date()
+            document.write("<br>Aktualny czas : ", dzis.getHours(), ":", dzis.getMinutes());
+            document.write("<br>Aktualna data : ", dzis.getDate(), ",", dzis.getMonth() + 1, ",", dzis.getFullYear());
+        </script>
+    </center>
+    <center><button class="button" onclick="window.close()">ZAMKNIJ</button></center>
+</body>
+</html>
